@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Parcial</title>
+</head>
+<body>
+
+    <section id = "central">
+
+        <div id="resultados">
+            <h1>Mars Rover Photos</h1>
+            <label for="input">Earth Date:</label>
+            <input type="text" id="input" name="texto" value="2015-07-2">
+            <button id="buscar">Buscar</button>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Earth Date</th>
+                        <th>Camera</th>
+                        <th>Img Src</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                
+                </tbody>
+            </table>
+
+            <button id="anterior">Previous</button>
+            <button id="siguiente">Next</button>
+
+        </div>
+        <div id="detalles">
+            <h1>Photo Detail</h1>
+            <img src="" id="img">
+            <div id="details">
+                <span ><b>ID:</b></span>
+                <span id = "id"><b></b></span>
+                <span ><b>Martial sol:</b></span>
+                <span id = "sol"><b></b></span>
+                <span ><b>Earth date:</b></span>
+                <span id = "date"><b></b></span>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./js/index.js"></script>
+    
+</body>
+</html>
